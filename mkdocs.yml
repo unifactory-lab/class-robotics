@@ -4,7 +4,7 @@ docs_dir: 'docs/'
 site_dir: 'generated/'
 
 site_description: Bienvenue sur le site dédié au cours de robotique d'UniLaSalle Amiens.
-site_author: Thomas FIOLET
+site_author: Thomas FIOLET et Sebastian GOMEZ
 copyright: Copyright 2024 - Unilasalle Amiens - Creative Commons Attribution Non Commercial
 
 site_url: https://unifactory-lab.github.io/class-robotics/
@@ -16,28 +16,9 @@ edit_uri: edit/main/docs/
 nav:
   - Accueil :
     - index.md
-    # - class/intro.md
-    # - "Chapitre 1 : Les enjeux de l'usine du futur" : 
-    #   - class/chap1/index.md
-    # - "Chapitre 2 : L'ère numérique" :
-    #   - class/chap2/index.md
-    #   - class/chap2/cao.md
-    #   - class/chap2/digital-twin.md
-    #   - class/chap2/fab.md
-    #   - class/chap2/simulation.md
-    #   - class/chap2/robotics.md
-    #   - class/chap2/ia.md
-    #   - class/chap2/data.md
-    #   - class/chap2/vr.md
-    # - "Chapitre 3 : Méthode d'implantation" :
-    #   - class/chap3/index.md
-    #   - class/chap3/intro.md
-    #   - class/chap3/process.md
-    #   - class/chap3/innov.md
-    #   - class/chap3/projet.md
-    # - "Chapitre 4 : Introduction à l'analyse numérique" : 
-    #   - class/chap4/index.md
-    # - Résumé de cours : class/sos.md
+    - ./class/robotique-vision.md
+    - ./class/Projet_robotique_3DExp.md
+
   - Exercices: 
     - exo/tp.bvs.fanuc.1.md
     - exo/tp.bvs.fanuc.2.md
