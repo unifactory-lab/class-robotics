@@ -1,54 +1,76 @@
-# Cours de Robotique-Vision
+# Introduction au cours de Robotique
+
+Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la robotique.
+
+## Listes des règles de sécurité et de rangement
+[Règles de sécurité](/docs/secu/securite.md)
+
+[Règles de rangement](/docs/secu/rangement.md)
+
+[Organisation des cours](/docs/organisation/organisation.md)
 
 ## Prérequis
 
 - Algèbre linéaire : calcul matriciel, changements de repères.
-- Analyse : intégration, dérivation.
+- Analyse : intégration, dérivation, changement de variable.
+- Géométrie : transformations, projections.
 - Mécanique : mécanique du point, cinématique.
-- Programmation : Python.
-- Anglais.
+- Programmation : algorithmique.
+- Anglais : anglais technique.
 
-## Compétences
+## Connaissances & Compétences
 
-- Utilisation de RoboDK pour la simulation de robots, de cameras et de leurs environnements.
-- Programmation Python avec l'API RoboDK et la bibliothèque OpenCV pour le traitement d'images.
-- Acquisition des bases de l'asservissement visuel.
-- Lecture d'articles de recherches en anglais.
+### Connaissances et compétences de base :
 
+- Organisation du travail en groupe.
+- Rédaction de rapports.
+- Culture générale sur la robotique.
+- Connaissance des règles de sécurité et de rangement dans un environnement robotique.
+- Fournir un cahier des charges.
+- Configuration de cobots et robots industriels six axes en mode manuel : changer et définir les repères, changer la vitesse, modifier les entrées/sorties, variables, etc.
+- Utilisation de cobots et robots industriels six axes en mode manuel : déplacer le robot, executer un programmes en mode manueln en mode pas à pas.
+- Programmation de robot.
+- Vérification de l'atteinte des objectifs et du respect du cahier des charges.
+- Modélisation géométrique et cinématique des robots.
+- Modélisation géométrique des caméras.
 
-## Sujet
-L'objectif du cours est d'implémenter, grâce au logiciel RoboDK et de son API Python, un algorithme d'asservissement visuel permettant de piloter un robot six axes equipé d'une caméra. L'algorithme devra prendre en entrée l'image courante renvoyée par la caméra et une image référence. L'algorithme devra permettre au robot d'atteindre une position qui annule la différence entre l'image courante et l'image cible.
+### Connaissances et compétences avancées :
 
-La première étape du projet est d'implémenter un environnement sous RoboDK, contenant un robot six axes, une table, une caméra attachée au robot et des objets à filmer, afin de tester confortablement l'algorithme d'asservissement visuel. Ci-dessous un exemple d'environnement RoboDK à implémenter afin de tester l'algorithme d'asservissement visuel :
+#### Industrielles : 
+ - Analyse d'une chaîne de production et définition des problématiques.
+ - Proposition de solutions robotisées.
+ - Validation de la simulation proposée par simulation.
+ - Definition d'un planning et chiffrage de la mise en place de la solution chez le client.
 
-<img src="../images/images/rdk_env.png" alt="drawing" width="500"/>
+#### Recherche et développement :
+ - Production d'une bibliographie : utilisation des outils de recherche, selection des articles pertinents, lecture d'articles, etc.
+ - Mise en place de méthodes d'études de conception et de validation suivant une démarche scientifique rigoureuse.
+ - Simulation et implémentation de solutions proposées dans l'état de l'art.
 
-L'algorithme d'asservissement visuel se basera sur l'extraction de features dans l'image courante et l'image cible. A gauche, un exemple d'image prise par la caméra en position initiale, à droite, un exemple d'image prise par la cameré dans la position cible :
+# Ressources
 
-<img src="../images/init.png" alt="drawing" width="350" style = "margin-right: 20px;"/><img src="../images/target.png" alt="drawing" width="350"/>
+### Livres
+📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](/docs/bib/robotics_bajd.pdf)
 
-En comparent les informations extraites, on peut calculer une vitesse pour la caméra. La figure suivante est une capture de l'image courante de la camera prise pendant l'execution de l'algorithme, les lignes rouges représentent l'erreur entre les features extraites de l'image courante et les features extraites dans l'image cible :
+📖 [Robots - John M. Jordan - The MIT Press (2016)](/docs/bib/robots_jordan.pdf)
 
-<img src="../images/error.png" alt="drawing" width="500"/>
+📖 [Modern Robotics - Mechanics, Planning, and Control - Frank C. Park & Kevin M. Lynch (2017)](/docs/bib/modern_robo.pdf)
 
-## Ressources
+📖 [Probabilistic Robotics - Sebastian Thrun, Wolfram Burgard, Dieter Fox (2005)](/docs/bib/proba_robo.pdf)
 
-- [Visual servo control, Part I: Basic approaches](https://inria.hal.science/inria-00350283/document)
-- [RoboDK API Examples](https://www.robodk.com/doc/en/PythonAPI/examples.html)
-- [Guide des stages](https://moodle-amiens.unilasalle.fr/course/view.php?id=322)
+### Supports de cours
+📓 [Robotique et cobotique](/docs/bib/robo_cobo.pdf)
 
-## Livrables
+📓 [Robotique Industrielle - Mehdi Cherif](/docs/bib/robo_cobo.pdf)
 
-- ### Fichiers utilisés pour le développement : 
-    - Projet RoboDK (.rdk)
-    - Image Cible (.jpg/.png)
+📓 [Robotique Mobile - David Fillat (2016)](/docs/bib/mobile_fillat.pdf.pdf)
 
-- ### Rapport :
-    - Page de garde
-    - Table des matières
-    - Table des figures
-    - Introduction : contexte, présentation du sujet, plan du rapport
-    - Corps : objectifs détaillés, outils utilisés, méthodologies, travail réalisés, explications des éléments techniques et scientifiques, moyens mis à disposition, difficultés rencontrées et solutions
-    - Conclusion : résumé du corps, commentaire sur le résultats, comparaison avec les objectifs fixés, perspectives et potentiel travaux futurs.
-    - References : ressources (universitaires, librairies, tutoriels, cours, etc.) utilisés dans le projet.
-    - Annexes : documentation pertinente mais non indispensable à la lecture du rapport (documentation technique trop lourde, developpement mathématique, etc.)
+📓 [Stéréovision - Généralités & géométrie épipolaire - Sebastien Kramm (2016)](/docs/bib/stereo_kramm.pdf)
+
+📓 [Vision Algorithms for Mobile Robotics - Lecture 03 - Camera Calibration - Davide Scaramuzza](/docs/bib/vis_alg.pdf)
+
+### Articles
+📄 [A new geometric notation for open and closed-loop robots - Khalil & Kleinfinger (1986)](/docs/bib/khalil_klein.pdf)
+
+### Vidéos
+🎞️ [Cours de Robotique - Jacques Gangloff (2016)](https://www.youtube.com/playlist?list=PLMXdciyMZwAAUlCQ_9mVs_CqQ9YaRTptX)
