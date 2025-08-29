@@ -19,6 +19,13 @@ nav:
     - ./class/robotique-vision.md
     - ./class/Projet_robotique_3DExp.md
 
+  - Règlement :
+    - ./secu/securite.md
+    - ./secu/rangement.md
+
+  - Organisation :
+    - ./secu/organisation/organisation.md
+
   - Exercices: 
     - exo/tp.bvs.fanuc.1.md
     - exo/tp.bvs.fanuc.2.md
