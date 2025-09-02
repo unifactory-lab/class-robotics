@@ -1,4 +1,4 @@
-# TP 1 FANUC: Initiation
+# Tutoriel : Fanuc ER-4iA
 
 ![](./images/tp.bvs.fanuc/EduCell.png){.align-center .img-medium}
 
@@ -95,17 +95,19 @@ Règles à suivre :
 ## Utilisation des frame offsets
 
 - Utilisez la fonctionnalité "Frame offset" se trouvant dans **Menu ==> Utilities** pour transférer le programme carré dans le "Uframe" du plan incliné
--   ![](./images/tp.bvs.fanuc/FrameOffset.png){.align-left}
+
+![](./images/tp.bvs.fanuc/FrameOffset.png){.align-left}
+
 - Testez le programme après avoir incliné le plan (attention aux vitesses du robot!)
 
-## Fin TP1: Création d'un escalier avec des Offsets de point
+<!-- ## Fin TP1: Création d'un escalier avec des Offsets de point
 
 - Créez la figure ci-dessous avec:
   - 1 point d'approche
   - 1 point unique pour les déplacements
   - 1 PR (position register)
   - Des mouvements avec des Offset (se référer au manuel)
--   ![](./images/tp.bvs.fanuc/escalier.png){.align-left}
+-   ![](./images/tp.bvs.fanuc/escalier.png){.align-left} -->
 
 <!-- à detailler -->
 

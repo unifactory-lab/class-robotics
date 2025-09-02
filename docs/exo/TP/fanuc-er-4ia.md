@@ -1,0 +1,14 @@
+# Fanuc ER-4iA
+ - Démarrer et éteindre le robot
+ - Changer de repère (joint/world/tool/user)
+ - Modifier la vitesse du robot
+ - Déplacer le robot manuellement
+ - Sauvegarder les données sur un support externe
+ - Créer un repère outil (méthode des 3 points)
+ - Créer un repère utilisateur (méthode des 3 points)
+ - Utiliser les entrées/sorties (utilisation de la pince)
+ - Executer un programme en mode manuel
+ - Executer un programme en mode pas à pas
+ - Créer un programme sequentiel pour de la paletisation
+ - Lire et modifier les registres et registres de position
+ - Créer un programme utilisant des boucles et des registres de position

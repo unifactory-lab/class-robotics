@@ -1,0 +1,14 @@
+# Universal Robots UR10e
+ - Démarrer et éteindre le robot
+ - Changer de repère (joint/world/tool/user)
+ - Modifier la vitesse du robot
+ - Démonter/Installer les outils
+ - Déplacer le robot grâce au teach
+ - Déplacer le robot à la main
+ - Sauvegarder les données sur un support externe
+ - Créer un repère outil (méthode des 3 points)
+ - Créer un repère utilisateur (méthode des 3 points)
+ - Executer un programme en mode manuel
+ - Executer un programme en mode pas à pas
+ - Créer un programme permettant de suivre les trajectoires données sur les feuilles
+ - Executer le programme sur un autre repère utilisateur (plan incliné)

@@ -1,0 +1,12 @@
+# Fanuc Surremballage
+ - Démarrer et éteindre le robot
+ - Changer de repère (joint/world/tool/user)
+ - Modifier la vitesse du robot
+ - Déplacer le robot manuellement
+ - Sauvegarder les données sur un support externe
+ - Utiliser les entrées/sorties (communication des deux robots, utilisation des outils)
+ - Activer le mode TP Robots
+ - Executer un programme en mode manuel
+ - Executer un programme en mode pas à pas
+ - Lire et modifier les registres et registres de position
+ - Créer deux programmes (un sur chaque robot) communiquants permettant d'effectuer le suremballage des boites dans les cartons

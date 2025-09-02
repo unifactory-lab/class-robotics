@@ -1,12 +1,16 @@
 # Règles de sécurité concernant la robotique
 
+Il est à noter que tout manquement constaté aux règles de securité se traduira par un malus de 0.5 point sur la note finale. Les malus sont cumulables.
+
 ## Règles générales
  - Connaître les éléments standards en robotique.
  - Pas de manipulation de robots avec portes ouvertes ou personne présente dans la cellule.
+ - Ne pas refermer les portes des cellules lorsqu'une ou plusieurs personnes sont présentes à l'intérieur.
  - Proscrire les déplacements à haute vitesse.
  - Pas de lancement de programme en mode automatique sans l'accord d'un enseignant.
  - Activer l'arrêt d'urgence en cas de problème.
  - Prévenir de tout dommage.
+ - Pas d'utilisation non professionnelle.
 
 ## Règles relatives à certains robots
  - FANUC CRx : ne pas placer sa main entre le robot et la table.

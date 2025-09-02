@@ -1,0 +1,14 @@
+# Fanuc CRx 
+ - Démarrer et éteindre le robot
+ - Changer de repère (joint/world/tool/user)
+ - Modifier la vitesse du robot
+ - Déplacer le robot grâce au teach
+ - Déplacer le robot à la main
+ - Sauvegarder les données sur un support externe
+ - Créer un repère outil (méthode des 3 points)
+ - Créer un repère utilisateur (méthode des 3 points)
+ - Utiliser les entrées/sorties (utilisation de la pince et du convoyeur)
+ - Executer un programme en mode manuel
+ - Executer un programme en mode pas à pas
+ - Lire et modifier les registres et registres de position
+ - Créer un programme de paletisation/depaletisation

@@ -1,13 +1,33 @@
-# Introduction au cours de Robotique
+# Robotique
 
 Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la robotique.
 
 ## Listes des règles de sécurité et de rangement
-[Règles de sécurité](/docs/secu/securite.md)
+ - [Règles de sécurité](../secu/securite.md)
+ - [Règles de rangement](../secu/rangement.md)
 
-[Règles de rangement](/docs/secu/rangement.md)
+## Organisation des cours
 
-[Organisation des cours](/docs/organisation/organisation.md)
+ - [Organisation des cours](../organisation/organisation.md)
+
+## Objectifs et exercices à réaliser
+
+### Exercices théoriques
+ - [Chaîne cinématique](../exo/TD/cinematique.md)
+ - [Placement des repères](../exo/TD/repere.md)
+ - [Tableau et matrices](../exo/TD/tableau.md)
+### Travaux pratiques
+ - [Fanuc ER-4iA](../exo/TP/fanuc-er-4ia.md)
+ - [Fanuc Suremballage](../exo/TP/fanuc-surremballage.md)
+ - [Fanuc CRx](../exo/TP/fanuc-CRx.md)
+ - [Universal Robots UR10e](../exo/TP/UR10e.md)
+
+### Projets
+ - Etude d'implantation
+ - Asservissement visuel
+
+## Tutoriels
+ - [Fanuc ER-4iA](../tuto/tuto-er-4ia.md)
 
 ## Prérequis
 
@@ -20,7 +40,7 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 
 ## Connaissances & Compétences
 
-### Connaissances et compétences de base :
+### Connaissances et compétences de base
 
 - Organisation du travail en groupe.
 - Rédaction de rapports.
@@ -34,15 +54,15 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 - Modélisation géométrique et cinématique des robots.
 - Modélisation géométrique des caméras.
 
-### Connaissances et compétences avancées :
+### Connaissances et compétences avancées
 
-#### Industrielles : 
+#### Industrielles
  - Analyse d'une chaîne de production et définition des problématiques.
  - Proposition de solutions robotisées.
  - Validation de la simulation proposée par simulation.
  - Definition d'un planning et chiffrage de la mise en place de la solution chez le client.
 
-#### Recherche et développement :
+#### Recherche et développement
  - Production d'une bibliographie : utilisation des outils de recherche, selection des articles pertinents, lecture d'articles, etc.
  - Mise en place de méthodes d'études de conception et de validation suivant une démarche scientifique rigoureuse.
  - Simulation et implémentation de solutions proposées dans l'état de l'art.
@@ -50,7 +70,7 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 # Ressources
 
 ### Livres
-📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](/docs/bib/robotics_bajd.pdf)
+📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](/docs/bib/robotics_bajd.pdf){:download}
 
 📖 [Robots - John M. Jordan - The MIT Press (2016)](/docs/bib/robots_jordan.pdf)
 
@@ -63,7 +83,7 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 
 📓 [Robotique Industrielle - Mehdi Cherif](/docs/bib/robo_cobo.pdf)
 
-📓 [Robotique Mobile - David Fillat (2016)](/docs/bib/mobile_fillat.pdf.pdf)
+📓 [Robotique Mobile - David Fillat (2016)](/docs/bib/mobile_fillat.pdf)
 
 📓 [Stéréovision - Généralités & géométrie épipolaire - Sebastien Kramm (2016)](/docs/bib/stereo_kramm.pdf)
 

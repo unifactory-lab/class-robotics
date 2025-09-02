@@ -16,22 +16,36 @@ edit_uri: edit/main/docs/
 nav:
   - Accueil :
     - index.md
-    - ./class/robotique-vision.md
-    - ./class/Projet_robotique_3DExp.md
+    # - ./class/robotique-vision.md
+    # - ./class/Projet_robotique_3DExp.md
 
   - Règlement :
     - ./secu/securite.md
     - ./secu/rangement.md
 
   - Organisation :
-    - ./secu/organisation/organisation.md
+    - ./organisation/organisation.md
 
-  - Exercices: 
-    - exo/tp.bvs.fanuc.1.md
-    - exo/tp.bvs.fanuc.2.md
-    - exo/tp.bvs.ur.1.md
-    - exo/tp.bvs.ur.2.md
+  - Exercices:
+    - Exercices théoriques:
+      - exo/TD/cinematique.md
+      - exo/TD/repere.md
+      - exo/TD/tableau.md
+    - Travaux pratiques:
+      - exo/TP/fanuc-er-4ia.md
+      - exo/TP/fanuc-surremballage.md
+      - exo/TP/fanuc-CRx.md
+      - exo/TP/UR10e.md
+    - Projets:
+      - exo/PR/asservis.md
+      - exo/PR/implant.md
+    # - exo/tp.bvs.fanuc.1.md
+    # - exo/tp.bvs.fanuc.2.md
+    # - exo/tp.bvs.ur.1.md
+    # - exo/tp.bvs.ur.2.md
 
+  - Tutoriels:
+    - tuto/tuto-er-4ia.md
 theme:
   language: fr
   custom_dir: './overrides/'
