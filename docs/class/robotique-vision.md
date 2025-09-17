@@ -81,6 +81,8 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 ### Supports de cours
 📓 [Robotique et cobotique](/docs/bib/robo_cobo.pdf)
 
+📓 [Robotique et cobotique](/docs/bib/robo_cobo.pdf)
+
 📓 [Robotique Industrielle - Mehdi Cherif](/docs/bib/robo_cobo.pdf)
 
 📓 [Robotique Mobile - David Fillat (2016)](/docs/bib/mobile_fillat.pdf)
