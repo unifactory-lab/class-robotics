@@ -2,6 +2,8 @@
 
 Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la robotique.
 
+Le site est en cours de construction, si vous constatez des erreurs ou des informations qui ne sont plus à jour, veuillez les signaler à l'adresse suivante : thomas.fiolet@unilasalle.fr
+
 ## Listes des règles de sécurité et de rangement
 
 <div class="grid cards" markdown>
@@ -24,19 +26,20 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 
 ## Organisation des cours
 
- - [Organisation des cours](../organisation/organisation.md)
+ - [Organisation des cours](organisation/organisation.md)
 
 ## Objectifs et exercices à réaliser
 
 ### Exercices théoriques
- - [Chaîne cinématique](../exo/TD/cinematique.md)
- - [Placement des repères](../exo/TD/repere.md)
- - [Tableau et matrices](../exo/TD/tableau.md)
+ - [Méthode de Denavit-Hartenberg](exo/TD/denavit-hartenberg.md)
+ - [Chaîne cinématique](exo/TD/cinematique.md)
+ - [Placement des repères](exo/TD/repere.md)
+ - [Tableau et matrices](exo/TD/tableau.md)
 ### Travaux pratiques
- - [Fanuc ER-4iA](../exo/TP/fanuc-er-4ia.md)
- - [Fanuc Suremballage](../exo/TP/fanuc-surremballage.md)
- - [Fanuc CRx](../exo/TP/fanuc-CRx.md)
- - [Universal Robots UR10e](../exo/TP/UR10e.md)
+ - [Fanuc ER-4iA](exo/TP/fanuc-er-4ia.md)
+ - [Fanuc Suremballage](exo/TP/fanuc-surremballage.md)
+ - [Fanuc CRx](exo/TP/fanuc-CRx.md)
+ - [Universal Robots UR10e](exo/TP/UR10e.md)
 
 ### Projets
  - Etude d'implantation
@@ -86,27 +89,29 @@ Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la ro
 # Ressources
 
 ### Livres
-📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](/docs/bib/robotics_bajd.pdf){:download}
+📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](bib/robotics_bajd.pdf){:download}
 
-📖 [Robots - John M. Jordan - The MIT Press (2016)](/docs/bib/robots_jordan.pdf)
+📖 [Robots - John M. Jordan - The MIT Press (2016)](bib/robots_jordan.pdf){:download}
 
-📖 [Modern Robotics - Mechanics, Planning, and Control - Frank C. Park & Kevin M. Lynch (2017)](/docs/bib/modern_robo.pdf)
+📖 [Modern Robotics - Mechanics, Planning, and Control - Frank C. Park & Kevin M. Lynch (2017)](bib/modern_robo.pdf){:download}
 
-📖 [Probabilistic Robotics - Sebastian Thrun, Wolfram Burgard, Dieter Fox (2005)](/docs/bib/proba_robo.pdf)
+📖 [Probabilistic Robotics - Sebastian Thrun, Wolfram Burgard, Dieter Fox (2005)](bib/proba_robo.pdf){:download}
 
 ### Supports de cours
-📓 [Robotique et cobotique](/docs/bib/robo_cobo.pdf)
+📓 [Robotique-Vision - Thomas Fiolet](bib/robotique_vision.pdf){:download}
 
-📓 [Robotique Industrielle - Mehdi Cherif](/docs/bib/robo_cobo.pdf)
+📓 [Robotique et cobotique](bib/robo_cobo.pdf){:download}
 
-📓 [Robotique Mobile - David Fillat (2016)](/docs/bib/mobile_fillat.pdf)
+📓 [Robotique Industrielle - Mehdi Cherif](bib/robo_cobo.pdf){:download}
 
-📓 [Stéréovision - Généralités & géométrie épipolaire - Sebastien Kramm (2016)](/docs/bib/stereo_kramm.pdf)
+📓 [Robotique Mobile - David Fillat (2016)](bib/mobile_fillat.pdf){:download}
 
-📓 [Vision Algorithms for Mobile Robotics - Lecture 03 - Camera Calibration - Davide Scaramuzza](/docs/bib/vis_alg.pdf)
+📓 [Stéréovision - Généralités & géométrie épipolaire - Sebastien Kramm (2016)](bib/stereo_kramm.pdf){:download}
+
+📓 [Vision Algorithms for Mobile Robotics - Lecture 03 - Camera Calibration - Davide Scaramuzza](bib/vis_alg.pdf){:download}
 
 ### Articles
-📄 [A new geometric notation for open and closed-loop robots - Khalil & Kleinfinger (1986)](/docs/bib/khalil_klein.pdf)
+📄 [A new geometric notation for open and closed-loop robots - Khalil & Kleinfinger (1986)](bib/khalil_klein.pdf){:download}
 
 ### Vidéos
 🎞️ [Cours de Robotique - Jacques Gangloff (2016)](https://www.youtube.com/playlist?list=PLMXdciyMZwAAUlCQ_9mVs_CqQ9YaRTptX)
