@@ -97,6 +97,18 @@ canvas {
     transition: color 125ms,background-color 125ms,border-color 125ms;
 }
 
+.md-typeset .md-button_fixed {
+    border: .1rem solid;
+    border-radius: .1rem;
+    color: var(--md-primary-button-color);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .625em 2em;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+    width: 100%;
+}
+
 .md-typeset .md-button--primary {
     background-color: var(--md-primary-button-color);
     border-color: var(--md-primary-button-color);
