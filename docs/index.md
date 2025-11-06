@@ -99,9 +99,6 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 </div>
 
-
- - [Fanuc ER-4iA](../tuto/tuto-er-4ia.md)
-
 ## Prérequis
 
 - Algèbre linéaire : calcul matriciel, changements de repères.

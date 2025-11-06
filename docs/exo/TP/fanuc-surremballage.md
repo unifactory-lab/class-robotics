@@ -15,7 +15,7 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
  - Changer de repère (joint/world/tool/user)
  - Modifier la vitesse du robot
  - Déplacer le robot manuellement
- - Sauvegarder les données sur un support externe
+ - (optionnel) Sauvegarder les données sur un support externe
 
 ### Utilisation du robot
  - Utiliser les entrées/sorties (communication des deux robots, utilisation des outils)

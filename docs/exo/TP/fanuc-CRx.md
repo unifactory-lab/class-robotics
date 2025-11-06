@@ -16,14 +16,14 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
  - Modifier la vitesse du robot
  - Déplacer le robot grâce au teach
  - Déplacer le robot à la main
- - Sauvegarder les données sur un support externe
+ - (optionnel) Sauvegarder les données sur un support externe
 
 ### Création des repères
  - Créer un repère outil (méthode des 3 points)
  - Créer un repère utilisateur (méthode des 3 points)
 
 ### Utilisation du robot
- - Utiliser les entrées/sorties (utilisation de la pince et du convoyeur)
+ - Utiliser les entrées/sorties (utilisation des outils)
  - Executer un programme en mode manuel
  - Executer un programme en mode pas à pas
 
