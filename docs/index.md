@@ -31,22 +31,73 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 ## Objectifs et exercices à réaliser
 
 ### Exercices théoriques
- - [Méthode de Denavit-Hartenberg](exo/TD/denavit-hartenberg.md)
- - [Chaîne cinématique](exo/TD/cinematique.md)
- - [Placement des repères](exo/TD/repere.md)
- - [Tableau et matrices](exo/TD/tableau.md)
-### Travaux pratiques
- - [Fanuc ER-4iA](exo/TP/fanuc-er-4ia.md)
- - [Fanuc Suremballage](exo/TP/fanuc-surremballage.md)
- - [Fanuc CRx](exo/TP/fanuc-CRx.md)
- - [Universal Robots UR10e](exo/TP/UR10e.md)
 
-### Projets
- - Etude d'implantation
- - Asservissement visuel
+<div class="grid cards" markdown>
+
+-   :material-robot:{ .lg .middle } __Méthode de Denavit-Hartenberg__
+
+    <img class="img-no-border" src="images/DH_illus.png" alt="Figure numéro 7 de l'article 'A new geometric notation for open and closed-loop robots' par Khalil & Kleinfinger (1986)">
+
+    <center>[Chaîne cinématique](exo/TD/cinematique.md){.md-button_fixed}
+    <center>[Placement des repères](exo/TD/repere.md){.md-button_fixed}
+    <center>[Tableau et matrices](exo/TD/tableau.md){.md-button_fixed}
+    <center>[Méthode complète](exo/TD/denavit-hartenberg.md){.md-button_fixed}
+
+-   :material-robot:{ .lg .middle } __Planification de Trajectoire__
+
+    <img class="img-no-border" src="images/RRT_illus.png" alt="Figure issues de l'article 'Rapidly-exploring random trees: A new tool for path planning' par Steven M. LaValle (1998)">
+
+    <center>[TODO](){.md-button_fixed}
+    <center>[TODO](){.md-button_fixed}
+    <center>[TODO](){.md-button_fixed}
+    <center>[TODO](){.md-button_fixed}
+</div>
+
+### Exercices pratiques
+
+<div class="grid cards" markdown>
+
+-   :material-robot:{ .lg .middle } __Travaux Pratiques__
+
+    <img class="img-no-border" src="images/TP_illus.jpg" alt="Photo de l'Usine-Ecole d'UniLaSalle Amiens">
+
+    <center>[Fanuc ER-4iA](exo/TP/fanuc-er-4ia.md){.md-button_fixed}
+    <center>[Fanuc Suremballage](exo/TP/fanuc-surremballage.md){.md-button_fixed}
+    <center>[Fanuc CRx](exo/TP/fanuc-CRx.md){.md-button_fixed}
+    <center>[Universal Robots UR10e](exo/TP/UR10e.md){.md-button_fixed}
+
+-   :material-robot:{ .lg .middle } __Projets__
+
+    <img class="img-no-border" src="images/rdk_env.png" alt="Capture d'écran du logiciel RoboDK">
+
+    <center>[Etude d'implantation](exo/PR/implant.md){.md-button_fixed}
+    <center>[Asservissement visuel](exo/PR/asservis.md){.md-button_fixed}
+
+</div>
 
 ## Tutoriels
- - [Fanuc ER-4iA](../tuto/tuto-er-4ia.md)
+<div class="grid cards" markdown>
+
+-   :material-robot:{ .lg .middle } __Matériel__
+
+    <img class="img-no-border" src="images/ABB_GoFa.jpg" alt="Photo de l'ABB GoFa d'UniLaSalle Amiens">
+
+    <center>[Fanuc ER-4iA](../tuto/tuto-er-4ia.md){.md-button_fixed}
+    <center>[Fanuc M10/M710 (TODO)](){.md-button_fixed}
+    <center>[Fanuc CRx (TODO)](){.md-button_fixed}
+    <center>[UR10e (TODO)](){.md-button_fixed}
+    <center>[ABB GoFa (TODO)](){.md-button_fixed}
+
+-   :material-robot:{ .lg .middle } __Logiciel__
+
+    <img class="img-no-border" src="images/soft_illus.jpg" alt="Capture d'écran du logiciel 3DExperience">
+
+    <center>[RoboDK (TODO)](){.md-button_fixed}
+    <center>[3D Expérience (TODO)](){.md-button_fixed}
+    <center>[Blender (TODO)](){.md-button_fixed}
+
+
+</div>
 
 ## Prérequis
 
@@ -112,6 +163,8 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 ### Articles
 📄 [A new geometric notation for open and closed-loop robots - Khalil & Kleinfinger (1986)](bib/khalil_klein.pdf){:download}
+
+📄 [Rapidly-Exploring Random Trees: A New Tool for Path Planning - Steven M. LaValle (1998)](bib/RRT_lavalle.pdf){:download}
 
 ### Vidéos
 🎞️ [Cours de Robotique - Jacques Gangloff (2016)](https://www.youtube.com/playlist?list=PLMXdciyMZwAAUlCQ_9mVs_CqQ9YaRTptX)
