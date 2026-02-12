@@ -70,8 +70,9 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
     <img class="img-no-border" src="images/rdk_env.png" alt="Capture d'écran du logiciel RoboDK">
 
-    <center>[Etude d'implantation](exo/PR/implant.md){.md-button_fixed}
     <center>[Asservissement visuel](exo/PR/asservis.md){.md-button_fixed}
+    <center>[Etude d'implantation](exo/PR/implant.md){.md-button_fixed}
+    <center>[Usine modulaire](exo/PR/modulaire.md){.md-button_fixed}
 
 </div>
 
