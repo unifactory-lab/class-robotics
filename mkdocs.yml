@@ -31,6 +31,7 @@ nav:
       - exo/TD/cinematique.md
       - exo/TD/repere.md
       - exo/TD/tableau.md
+      - exo/TD/denavit-hartenberg.md
     - Travaux pratiques:
       - exo/TP/fanuc-er-4ia.md
       - exo/TP/fanuc-surremballage.md
@@ -39,6 +40,7 @@ nav:
     - Projets:
       - exo/PR/asservis.md
       - exo/PR/implant.md
+      - exo/PR/modulaire.md
     # - exo/tp.bvs.fanuc.1.md
     # - exo/tp.bvs.fanuc.2.md
     # - exo/tp.bvs.ur.1.md
