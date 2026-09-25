@@ -1,4 +1,4 @@
-# Règles de rangement concernant la robotique
+# REGLES DE RANGEMENT
 
 Il est à noter que tout manquement constaté aux règles de securité se traduira par un malus de 0.25 point sur la note finale. Les malus sont cumulables.
 
