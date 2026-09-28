@@ -65,7 +65,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <center>[Fanuc Suremballage](exo/TP/fanuc-surremballage.md){.md-button_fixed}
     <center>[Fanuc CRx](exo/TP/fanuc-CRx.md){.md-button_fixed}
     <center>[Universal Robots UR10e](exo/TP/UR10e.md){.md-button_fixed}
-    <center>[ABB GoFa (TODO)](){.md-button_fixed}
+    <center>[ABB GoFa (WIP)](exo/TP/ABB_Gofa.md){.md-button_fixed}
 
 -   __PROJETS__
 

@@ -43,4 +43,4 @@ L' objectif de ce TP est de réaliser un programme permettant au robot de suivre
  - Créer différents programmes séquetiels permettant de :
     - Suivre les différentes trajectoire déssinées sur les deux feuilles fournies
  - Créer un programme principal permettant d'executer les uns à la suite des autres les sous-programmes conçus à l'étape précédente
- - Lorsque le programme principal est fonctionnel : incliner le profilé sur lequel la feuille est attachée afin.
+ - Lorsque le programme principal est fonctionnel : incliner le profilé sur lequel la feuille est attachée, créer un nouveau repère utilisateur incliné, changer le repère du programme puis l'executer

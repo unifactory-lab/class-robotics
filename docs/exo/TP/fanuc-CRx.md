@@ -36,7 +36,7 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
 ⚠ Les repères et les charges utiles devront être déclarés dans tous les programmes de mouvement.
 
  - Créer différents programmes séquentiels permettant de :
-    - Prendre une pièce dans une position donnée sur le premier convoyeur  (utiliser les registres et registres de position) et la déposer sur le départ du convoyeur
+    - Prendre une pièce dans une position donnée sur la première palette  (utiliser les registres et registres de position) et la déposer sur le départ du convoyeur
     - Prendre une pièce sur l'arrivée du convoyeur et la palettiser dans une position donnée (utiliser les registres et registres de position)
     - Prendre une pièce palletisée dans une position donnée et la replacer sur la première palette dans une position donnée (utiliser les registres et registres de position)
 
