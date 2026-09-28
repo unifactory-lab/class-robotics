@@ -1,9 +1,9 @@
-# Fanuc ER-4iA
+# ABB Gofa (WIP)
 
 ## Poste de travail
-Ces TP s'effectuent sur le Fanuc ER-4iA, installée dans la cellule pédagogique au fond du laboratoire robotique.
+Ces TP s'effectuent sur l'ABB Gofa, installée à côté de la cellule de suremballage.
 
-<img class="img-no-border" src="../../../images/er4ia.jpg" alt="Photo de la cellule robotisée Fanuc ER-4iA">
+<img class="img-no-border" src="../../../images/gofa.jpg" alt="Photo de l'ABB Gofa">
 
 ## Travail à effectuer
 Chaque étape doit être validée par un enseignant avant de passer à la suivante.
@@ -13,7 +13,8 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
  - Changer de repère (joint/world/tool/user)
  - Changer de charge utile
  - Modifier la vitesse du robot
- - Déplacer le robot manuellement
+ - Déplacer le robot grâce au teach
+ - Déplacer le robot à la main
  - (optionnel) Sauvegarder les données sur un support externe
 
 ### Création des repères et de la charge utile
@@ -23,7 +24,7 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
  - Créer une nouvelle charge utile
 
 ### Utilisation du robot
- - Utiliser les entrées/sorties (ouverture/fermeture de la pince, mise en marche/arrêt du convoyeur, récupération des données capteur)
+ - Utiliser les entrées/sorties (activation/désactivation de la ventouse)
  - Accéder à : la liste des programmes, la page d'édition des programmes et la liste des variables
  - Executer un programme en mode manuel
  - Executer un programme en mode pas à pas
@@ -32,9 +33,5 @@ Chaque étape doit être validée par un enseignant avant de passer à la suivan
 
 ⚠ Les repères et les charges utiles devront être déclarés dans tous les programmes de mouvement.
 
- - Créer différents programmes séquentiels permettant de :
-    - Prendre une pièce dans le distributeur et la déposer sur le départ du convoyeur
-    - Prendre une pièce sur l'arrivée du convoyeur et la palettiser dans une position donnée (utiliser les registres et registres de position)
-    - Prendre une pièce palletisée dans une position donnée et la replacer dans le distributeur
-
- - Créer un programme principal permettant d'effectuer la palletisation et la dépalletisation en boucle
+ - Créer un programme permettant au robot de saisir un carton depuis le distributeur pour le déposer sur le convoyeur. Avec le mode TP Robots, activable depuis l'IHM de l'armoire électrique, le covoyeur se met en marche automatiquement.
+ - Ce programme pourra être tester en même temps que les programmes des robots M10 et M710 de la cellule de surremballage.

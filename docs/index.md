@@ -1,40 +1,40 @@
 # Robotique
 
+<img class="img-no-border" src="images/NIA.png" alt="Logo Non-IA">
+<img class="img-no-border" src="images/IA_detail.png" alt="Détails sur l'utilisation de l'IA">
+
 Bienvenue sur le hub UniLaSalle Amiens - PAUC dédié aux enseignements de la robotique.
 
 Le site est en cours de construction, si vous constatez des erreurs ou des informations qui ne sont plus à jour, veuillez les signaler à l'adresse suivante : thomas.fiolet@unilasalle.fr
 
-## Listes des règles de sécurité et de rangement
+## INFORMATIONS GENERALES
 
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } __Règles de sécurité__
+-   __REGLES DU LABORATOIRE__
 
-    ---
+    <img class="img-no-border" src="images/OBLIGATION-casque.jpg" alt="Logo INRS Port du casque obligatoire">
 
-    <br>
-    <center>[Règles de sécurité](secu/securite.md){.md-button}
+    <center>[Règles de sécurité](secu/securite.md){.md-button_fixed}
+    <center>[Règles de rangement](secu/rangement.md){.md-button_fixed}
+    <center>[Règles sur les livrables](secu/redaction.md){.md-button_fixed}
 
--   :material-robot:{ .lg .middle } __Règles de rangement__
 
-    ---
+-   __ORGANISATION DES COURS__
 
-    <br>
-    <center>[Règles de rangement](secu/rangement.md){.md-button}
+    <img class="img-no-border" src="images/orga.png" alt="Logo INRS Port du casque obligatoire">
+
+    <center>[Organisation des cours](organisation/organisation.md){.md-button_fixed}
+    <center>[Compétences et prérequis](organisation/competences.md){.md-button_fixed}
+    <center>[IA Probibée](organisation/ia_prohibee.md){.md-button_fixed}
 
 </div>
 
-## Organisation des cours
-
- - [Organisation des cours](organisation/organisation.md)
-
-## Objectifs et exercices à réaliser
-
-### Exercices théoriques
+## TRAVAUX THEORIQUES
 
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } __Méthode de Denavit-Hartenberg__
+-   __MODELISATION MECANIQUE__
 
     <img class="img-no-border" src="images/DH_illus.png" alt="Figure numéro 7 de l'article 'A new geometric notation for open and closed-loop robots' par Khalil & Kleinfinger (1986)">
 
@@ -43,7 +43,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <center>[Tableau et matrices](exo/TD/tableau.md){.md-button_fixed}
     <center>[Méthode complète](exo/TD/denavit-hartenberg.md){.md-button_fixed}
 
--   :material-robot:{ .lg .middle } __Planification de Trajectoire__
+-   __PLANIFICATION DE TRAJECTOIRE__
 
     <img class="img-no-border" src="images/RRT_illus.png" alt="Figure issues de l'article 'Rapidly-exploring random trees: A new tool for path planning' par Steven M. LaValle (1998)">
 
@@ -53,11 +53,11 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <center>[TODO](){.md-button_fixed}
 </div>
 
-### Exercices pratiques
+## TRAVAUX APPLIQUES
 
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } __Travaux Pratiques__
+-   __TRAVAUX PRATIQUES__
 
     <img class="img-no-border" src="images/TP_illus.jpg" alt="Photo de l'Usine-Ecole d'UniLaSalle Amiens">
 
@@ -65,8 +65,9 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <center>[Fanuc Suremballage](exo/TP/fanuc-surremballage.md){.md-button_fixed}
     <center>[Fanuc CRx](exo/TP/fanuc-CRx.md){.md-button_fixed}
     <center>[Universal Robots UR10e](exo/TP/UR10e.md){.md-button_fixed}
+    <center>[ABB GoFa (WIP)](exo/TP/ABB_Gofa.md){.md-button_fixed}
 
--   :material-robot:{ .lg .middle } __Projets__
+-   __PROJETS__
 
     <img class="img-no-border" src="images/rdk_env.png" alt="Capture d'écran du logiciel RoboDK">
 
@@ -76,10 +77,11 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 </div>
 
-## Tutoriels
+## TUTORIELS
+
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } __Matériel__
+-   __MATERIEL__
 
     <img class="img-no-border" src="images/ABB_GoFa.jpg" alt="Photo de l'ABB GoFa d'UniLaSalle Amiens">
 
@@ -89,56 +91,20 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <center>[UR10e (TODO)](){.md-button_fixed}
     <center>[ABB GoFa (TODO)](){.md-button_fixed}
 
--   :material-robot:{ .lg .middle } __Logiciel__
+-   __LOGICIEL__
 
     <img class="img-no-border" src="images/soft_illus.jpg" alt="Capture d'écran du logiciel 3DExperience">
 
     <center>[RoboDK (TODO)](){.md-button_fixed}
+    <center>[Roboguide (TODO)](){.md-button_fixed}
+    <center>[Robostudio (TODO)](){.md-button_fixed}
     <center>[3D Expérience (TODO)](){.md-button_fixed}
     <center>[Blender (TODO)](){.md-button_fixed}
 
 
 </div>
 
-## Prérequis
-
-- Algèbre linéaire : calcul matriciel, changements de repères.
-- Analyse : intégration, dérivation, changement de variable.
-- Géométrie : transformations, projections.
-- Mécanique : mécanique du point, cinématique.
-- Programmation : algorithmique.
-- Anglais : anglais technique.
-
-## Connaissances & Compétences
-
-### Connaissances et compétences de base
-
-- Organisation du travail en groupe.
-- Rédaction de rapports.
-- Culture générale sur la robotique.
-- Connaissance des règles de sécurité et de rangement dans un environnement robotique.
-- Fournir un cahier des charges.
-- Configuration de cobots et robots industriels six axes en mode manuel : changer et définir les repères, changer la vitesse, modifier les entrées/sorties, variables, etc.
-- Utilisation de cobots et robots industriels six axes en mode manuel : déplacer le robot, executer un programmes en mode manueln en mode pas à pas.
-- Programmation de robot.
-- Vérification de l'atteinte des objectifs et du respect du cahier des charges.
-- Modélisation géométrique et cinématique des robots.
-- Modélisation géométrique des caméras.
-
-### Connaissances et compétences avancées
-
-#### Industrielles
- - Analyse d'une chaîne de production et définition des problématiques.
- - Proposition de solutions robotisées.
- - Validation de la simulation proposée par simulation.
- - Definition d'un planning et chiffrage de la mise en place de la solution chez le client.
-
-#### Recherche et développement
- - Production d'une bibliographie : utilisation des outils de recherche, selection des articles pertinents, lecture d'articles, etc.
- - Mise en place de méthodes d'études de conception et de validation suivant une démarche scientifique rigoureuse.
- - Simulation et implémentation de solutions proposées dans l'état de l'art.
-
-# Ressources
+## RESSOURCES
 
 ### Livres
 📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](bib/robotics_bajd.pdf){:download}
@@ -150,7 +116,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 📖 [Probabilistic Robotics - Sebastian Thrun, Wolfram Burgard, Dieter Fox (2005)](bib/proba_robo.pdf){:download}
 
 ### Supports de cours
-📓 [Robotique-Vision - Thomas Fiolet](bib/robotique_vision.pdf){:download}
+📓 [Robotique-Vision - Thomas Fiolet (WIP)](bib/robotique_vision.pdf){:download}
 
 📓 [Robotique et cobotique](bib/robo_cobo.pdf){:download}
 

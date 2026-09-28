@@ -22,12 +22,15 @@ nav:
   - Règlement :
     - ./secu/securite.md
     - ./secu/rangement.md
+    - ./secu/redaction.md
 
   - Organisation :
     - ./organisation/organisation.md
+    - ./organisation/competences.md
+    - ./organisation/ia_prohibee.md
 
   - Exercices:
-    - Exercices théoriques:
+    - Travaux théoriques:
       - exo/TD/cinematique.md
       - exo/TD/repere.md
       - exo/TD/tableau.md
